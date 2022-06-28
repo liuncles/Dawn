@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configure\ContainerConfigure.cs~RF2218f1.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dawn.Common\Dawn.Commons.csproj" />
+    <ProjectReference Include="..\Dawn.Entities\Dawn.Entities.csproj" />
+    <ProjectReference Include="..\Dawn.IServices\Dawn.IServices.csproj" />
+    <ProjectReference Include="..\Dawn.Repository\Dawn.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\System\" />
+    <Folder Include="Controllers\Login\" />
+  </ItemGroup>
+
+</Project>

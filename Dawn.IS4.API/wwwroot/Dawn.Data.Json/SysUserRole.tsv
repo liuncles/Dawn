@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "UserId": 1,
+    "RoleId": 1,
+    "IsDeleted": 0,
+    "CreatedId": 1,
+    "CreateBy": null,
+    "CreatedTime": "\/Date(1546272000000+0800)\/",
+    "ModifiedId": null,
+    "ModifiedBy": null,
+    "ModifiedTime": "\/Date(1546272000000+0800)\/"
+  }
+]

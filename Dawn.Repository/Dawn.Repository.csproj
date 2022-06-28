@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\Dawn.IS4.API\bin\Debug\</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\Dawn.IS4.API\bin\Release\</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MongoDB.Driver" Version="2.16.0" />
+		<PackageReference Include="SqlSugar.IOC" Version="1.8.0" />
+		<PackageReference Include="StackExchange.Redis" Version="2.6.45" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Dawn.Common\Dawn.Commons.csproj" />
+		<ProjectReference Include="..\Dawn.Entities\Dawn.Entities.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+﻿global using Dawn.Commons.Attributes;
+global using Dawn.Commons.Helper;
+global using Dawn.Entities;
+global using Dawn.Entities.System;
+global using Dawn.IServices.Base;
+global using Dawn.IServices.System;
+global using Dawn.Repository.Base;
+global using Dawn.Services.Base;
+global using SqlSugar;
+global using System.Linq.Expressions;

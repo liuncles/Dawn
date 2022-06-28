@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "Name": "超级管理员",
+    "Description": "超级管理员",
+    "Sorts": 0,
+    "IsDeleted": 0,
+    "Enabled": 1,
+    "CreatedId": 1,
+    "CreateBy": "Administrator",
+    "CreatedTime": "\/Date(1546272000000+0800)\/",
+    "ModifiedId": null,
+    "ModifiedBy": null,
+    "ModifiedTime": "\/Date(1546272000000+0800)\/"
+  }
+]

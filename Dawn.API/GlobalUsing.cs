@@ -1,0 +1,9 @@
+﻿global using Autofac;
+global using Autofac.Extensions.DependencyInjection;
+global using Dawn.API;
+global using Dawn.Commons.DB;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using SqlSugar.IOC;
+global using System.Diagnostics;
+global using System.Reflection;

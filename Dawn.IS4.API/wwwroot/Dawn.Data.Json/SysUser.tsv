@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "UserName": "SuperAdmin",
+    "Password": "8a6f2805b4515ac12058e79e66539be9",
+    "UserNick": "超级管理员",
+    "Gender": 1,
+    "Age": 0,
+    "Portrait": null,
+    "Email": null,
+    "Phone": null,
+    "Description": null,
+    "Status": 0,
+    "ErrorCount": 0,
+    "IsDeleted": 0,
+    "CreatedTime": "\/Date(1546272000000+0800)\/",
+    "ModifiedTime": "\/Date(1546272000000+0800)\/",
+    "LastErrTime": "\/Date(1546272000000+0800)\/"
+  }
+]

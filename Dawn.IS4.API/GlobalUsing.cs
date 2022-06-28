@@ -1,0 +1,14 @@
+﻿global using Autofac;
+global using Autofac.Extensions.DependencyInjection;
+global using Dawn.Commons.DB;
+global using Dawn.Commons.Seed;
+global using Dawn.IS4.API;
+global using Dawn.IServices;
+global using Dawn.Tasks.QuartzNet;
+global using IdentityServer4;
+global using IdentityServer4.Models;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using System.Diagnostics;
+global using System.Reflection;

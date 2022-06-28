@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Dawn.IServices.Templates\Dawn.IServices.Templates.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+    </None>
+    <None Update="Dawn.Services.Templates\Dawn.Services.Templates.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
